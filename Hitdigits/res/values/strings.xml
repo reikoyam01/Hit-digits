@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hit digits</string>
+    <string name="restart">restart</string>
+    <string name="btnset">set</string>
+    <string name="btnhit">hit</string>
+    <string name="separator">></string>
+    <string name="blank"> </string>
+    <string name="settings">Settings</string>
+    <string name="settings_sound">Sound</string>
+    <string name="settings_num">Num of digits</string>
+    <string name="b1">H</string>
+    <string name="b2">I</string>
+    <string name="b3">T</string>
+    <string name="b4">D</string>
+    <string name="b5">I</string>
+    <string name="b6">G</string>
+    <string name="b7">I</string>
+    <string name="b8">T</string>
+    <string name="b9">S</string>
+    <string name="sharp">#</string>
+    <string name="aster">*</string>
+</resources>

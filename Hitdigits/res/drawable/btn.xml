@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layer-list
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:left="2dip"
+		android:right="2dip"
+		android:top="2dip"
+		android:bottom="2dip">
+		<selector>
+			<item
+				android:state_pressed="true">
+				<shape
+					android:shape="rectangle">
+					<corners
+						android:radius="5dip" />
+					<gradient
+						android:angle="270"
+						android:startColor="@color/component_frame_pressed_top"
+						android:endColor="@color/component_frame_pressed_bottom" />
+					<stroke
+						android:width="3dip"
+						android:color="@color/component_frame_pressed" />
+					<padding
+						android:left="25dip"
+						android:top="14dip"
+						android:right="25dip"
+						android:bottom="14dip" />
+				</shape>
+			</item>
+			<item
+				android:state_focused="true">
+				<shape
+					android:shape="rectangle">
+					<corners
+						android:radius="5dip" />
+					<gradient
+						android:angle="270"
+						android:startColor="@color/component_button_top"
+						android:endColor="@color/component_button_bottom" />
+					<stroke
+						android:width="3dip"
+						android:color="@color/component_frame_pressed" />
+					<padding
+						android:left="25dip"
+						android:top="14dip"
+						android:right="25dip"
+						android:bottom="14dip" />
+				</shape>
+			</item>
+			<item>
+				<shape
+					android:shape="rectangle">
+					<corners
+						android:radius="5dip" />
+					<gradient
+						android:angle="270"
+						android:startColor="@color/component_button_top"
+						android:endColor="@color/component_button_bottom" />
+					<stroke
+						android:width="3dip"
+						android:color="@color/component_frame_normal" />
+					<padding
+						android:left="25dip"
+						android:top="14dip"
+						android:right="25dip"
+						android:bottom="14dip" />
+				</shape>
+			</item>
+		</selector>
+	</item>
+</layer-list>

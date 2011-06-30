@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 白系 -->
+	<color name="color1">#CCDBDF</color><!-- 背景（淡色） -->
+	<color name="color2">#32403A</color><!-- 文字（濃） -->
+	<color name="color3">#4E8485</color><!-- 文字（薄） -->
+	<color name="color4">#32403A</color><!-- 文字（LCD）  -->
+	<color name="color5">#8AB29F</color><!-- LCD風 -->
+	<color name="color6">#606362</color><!-- グレー(濃いめ) -->
+	<color name="color7">#961B1B</color><!-- 強調ボタン -->
+
+	<color name="window_bg">@color/color3</color>
+	<color name="title_bg">@color/color2</color>
+
+	<color name="title_bg_top">@color/color1</color>
+	<color name="title_bg_bottom">@color/color6</color>
+
+	<color name="bg_top">@color/color1</color>
+	<color name="bg_bottom">@color/color3</color>
+
+	<color name="small_text">@color/color2</color>
+	<color name="medium_text">@color/color2</color>
+
+	<color name="menu_bg">@color/color1</color>
+
+	<color name="list_separator_text">@color/color2</color>
+	<color name="list_separator_bg">@color/color6</color>
+
+	<color name="horizontal_line_color">@color/color2</color>
+
+	<color name="alert_center_dark">@android:color/black</color>
+	<color name="alert_bottom_bright">@color/color1</color>
+	<color name="alert_dark">@color/color2</color>
+	<color name="alert_bottom_medium">@color/color5</color>
+
+	<color name="component_frame_normal">@color/color2</color>
+	<color name="component_frame_pressed">@color/color2</color>
+	<color name="component_frame_pressed_top">@color/color2</color>
+	<color name="component_frame_pressed_bottom">@color/color6</color>
+	<color name="component_frame_disabled">@color/color7</color>
+	<color name="component_text_normal">@android:color/white</color>
+	<color name="component_text_pressed">@color/color1</color>
+	<color name="component_button_top">#fff</color>
+	<color name="component_button_bottom">@color/color6</color>
+	
+	<color name="darkbtn_top">#fff</color>
+	<color name="darkbtn_bottom">@color/color7</color>
+	<color name="component_frame_dark">@color/color6</color>
+	
+	<color name="digitwindow_top">#fff</color>
+	<color name="digitwindow_bottom">@color/color5</color>
+
+<!--	<color name="tint_color1">@color/color1</color>-->
+<!--	<color name="tint_color2">@color/color2</color>-->
+<!--	<color name="tint_color3">@color/color3</color>-->
+<!--	<color name="tint_color4">@color/color4</color>-->
+<!--	<color name="tint_color5">@color/color5</color>-->
+</resources>

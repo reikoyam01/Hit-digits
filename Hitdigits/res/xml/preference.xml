@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="Settings">
+	<PreferenceCategory
+		android:title="@string/settings">
+		<CheckBoxPreference
+			android:title="@string/settings_sound"
+			android:key="settings_sound"
+			android:defaultValue="true">
+		</CheckBoxPreference>
+		<ListPreference
+			android:title="@string/settings_num"
+			android:key="settings_num"
+			android:entries="@array/list_entries"
+			android:entryValues="@array/list_entryvalues"
+			android:defaultValue="20">
+		</ListPreference>
+	</PreferenceCategory>
+</PreferenceScreen>  

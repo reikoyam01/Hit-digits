@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 白系 -->
+	<style name="CustomTheme.Light" parent="@android:style/Theme.Light">
+		<item name="android:windowBackground">@color/window_bg</item>
+		<item name="android:colorBackground">@color/window_bg</item>
+		<!-- 文字(Large, Medium)の色 -->
+		<item name="android:textColorPrimary">@color/medium_text</item>
+		<!-- 文字(Small)の色 -->
+		<item name="android:textColorSecondary">@color/small_text</item>
+
+		<!-- Button のスタイル -->
+		<item name="android:buttonStyle">@style/CustomButton</item>
+		<item name="android:buttonStyleSmall">@style/CustomButton</item>
+		<item name="android:buttonStyleInset">@style/CustomButton</item>
+	</style>
+
+	<!-- Button のスタイル -->
+	<style name="CustomButton" parent="@android:style/Widget.Button">
+		<item name="android:background">@drawable/btn</item>
+		<item name="android:textColor">@drawable/btn_textcolor</item>
+	</style>
+
+
+</resources>
